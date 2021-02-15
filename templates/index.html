@@ -39,10 +39,24 @@
       <div class="main__container">
         <!-- MAIN TITLE STARTS HERE -->
 
+        <!-- for local only -->
+        <!--
         <div style="display:none" id="subs" name="w3includes" w3-include-HTML="http://localhost:5000/subs"></div>
         <div style="display:none" id="videomng" name="w3includes" w3-include-HTML="http://localhost:5000/videomng">
         </div>
         <div style="display:none" id="admin" name="w3includes" w3-include-HTML="http://localhost:5000/admin"></div>
+        -->
+
+        <!-- for heroku only -->
+        <!-- https://royal-whistler-04890.herokuapp.com/ -->
+        <div style="display:none" id="subs" name="w3includes"
+          w3-include-HTML="https://royal-whistler-04890.herokuapp.com/subs"></div>
+        <div style="display:none" id="videomng" name="w3includes"
+          w3-include-HTML="https://royal-whistler-04890.herokuapp.com/videomng">
+        </div>
+        <div style="display:none" id="admin" name="w3includes"
+          w3-include-HTML="https://royal-whistler-04890.herokuapp.com/admin"></div>
+
         <!--
           <div class="main__title">
             <img src="assets/hello.svg" alt="" />
